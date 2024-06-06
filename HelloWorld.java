@@ -1,5 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        try {
+            Thread.sleep(30000); // Sleep for 30 seconds
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        
+        // Print the input
+        System.out.println("Input: " + args[0]);
     }
 }
