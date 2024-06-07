@@ -7,6 +7,6 @@ public class HelloWorld {
         }
         
         // Print the input
-        System.out.println("Input: " + args[0]);
+        System.out.println("Hello World");
     }
 }
