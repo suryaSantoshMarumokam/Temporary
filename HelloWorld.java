@@ -5,7 +5,8 @@ public class HelloWorld {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        
+
+        int x = 30;
         // Print the input
         System.out.println("Hello World");
     }
